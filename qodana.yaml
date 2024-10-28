@@ -8,7 +8,7 @@ version: "1.0"
 profile:
   name: qodana.recommended
 
-fixesStrategy: cleanup
+fixesStrategy: apply
 #Enable inspections
 #include:
 #  - name: <SomeEnabledInspectionId>
