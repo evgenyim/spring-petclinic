@@ -18,5 +18,6 @@ jobs:
         uses: JetBrains/qodana-action@v2024.2
         with:
           args: --property=project.open.type=Maven, --apply-fixes
+          push-fixes: pull-request
         env:
           QODANA_TOKEN: ${{ secrets.QODANA_TOKEN }}
